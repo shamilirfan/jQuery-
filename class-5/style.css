@@ -1,0 +1,27 @@
+.h-1 {
+    color: palevioletred;
+}
+
+.btn-1 {
+    width: 90px;
+    height: 35px;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 4px;
+    background-color: slategrey;
+    color: white;
+}
+
+.h-2 {
+    color: slateblue;
+}
+
+.btn-2 {
+    width: 90px;
+    height: 35px;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 4px;
+    background-color: teal;
+    color: white;
+}

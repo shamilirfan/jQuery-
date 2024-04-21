@@ -1,0 +1,56 @@
+.one {
+    width: 40%;
+    margin: auto;
+}
+
+.btn-1 {
+    width: 120px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px 1px;
+    padding: 5px;
+    background-color: slateblue;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-1:hover {
+    background-color: white;
+    color: slateblue;
+    border: 1px solid slateblue;
+}
+
+.btn-2 {
+    width: 120px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px 1px;
+    padding: 5px;
+    background-color: slategrey;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-2:hover {
+    background-color: white;
+    color: slategray;
+    border: 1px solid slategrey;
+}
+
+.one>p {
+    font-size: larger;
+    background-color: palegoldenrod;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tow {
+    width: 40%;
+    margin: auto;
+}
+
+.three {
+    width: 40%;
+    margin: auto;
+}

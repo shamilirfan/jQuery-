@@ -1,0 +1,33 @@
+.btn-1 {
+    width: 120px;
+    height: 35px;
+    background-color: slateblue;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-1:hover {
+    background-color: white;
+    color: slateblue;
+    border: 1px solid slateblue;
+}
+
+.btn-2 {
+    width: 120px;
+    height: 35px;
+    background-color: seagreen;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-2:hover {
+    background-color: white;
+    color: seagreen;
+    border: 1px solid seagreen;
+}

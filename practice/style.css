@@ -1,0 +1,35 @@
+.one {
+    background-color: palegreen;
+    width: 50%;
+    height: 100px;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 8px auto;
+}
+
+.two {
+    background-color: plum;
+    width: 50%;
+    height: 100px;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 8px auto;
+}
+
+.three {
+    background-color: skyblue;
+    width: 50%;
+    height: 100px;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 8px auto;
+}
+
+.btn-1 {
+    width: 90px;
+    height: 35px;
+    background-color: slategrey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}

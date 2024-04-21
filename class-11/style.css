@@ -1,0 +1,22 @@
+.one {
+    background-color: slategrey;
+    width: 300px;
+    height: 300px;
+}
+
+.btn-1 {
+    width: 120px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px 1px;
+    padding: 5px;
+    background-color: peru;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-1:hover {
+    background-color: white;
+    color: peru;
+    border: 1px solid peru;
+}
