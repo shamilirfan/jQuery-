@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practice</title>
+    <title>class-13</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
@@ -13,11 +13,9 @@
 
     <script>
         jQuery(document).ready(function () {
-            jQuery('button').click(function () {
-                jQuery('.div-1').animate({ marginLeft: '400px' }, 1000, function () {
-
-                });
-            });
+            jQuery('button').click(() => jQuery('.div-1').slideToggle(900, function () {
+                alert('hi');
+            }));
         });
     </script>
 

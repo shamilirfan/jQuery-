@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practice</title>
+    <title>class-12</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
@@ -13,11 +13,7 @@
 
     <script>
         jQuery(document).ready(function () {
-            jQuery('button').click(function () {
-                jQuery('.div-1').animate({ marginLeft: '400px' }, 1000, function () {
-
-                });
-            });
+            jQuery('button').click(() => jQuery('.div-1').slideToggle(500));
         });
     </script>
 
@@ -26,7 +22,7 @@
 
     <div class="div-1">
         <h1>May Day</h1>
-        <h2>our work</h2>
+        <h2>out work</h2>
         <h3>Teacher's Day</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, repellendus!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium culpa laboriosam!</p>
